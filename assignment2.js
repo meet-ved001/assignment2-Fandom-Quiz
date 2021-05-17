@@ -98,7 +98,7 @@ if (agree.toUpperCase() === "Y") {
   }
 
   //ROund 3
-  if (score === 6 ||score===9 ||score === 10) {
+  if (score === 8 ||score===9 ||score === 10) {
     console.log("Congratulaions !!! You are qualified for the final round i.e.Round 3 !!");
     console.log("Now the quiz will be about F.R.I.E.N.D.S show!!");
     var agree1 = readlineSync.question("Do you want to continue??\nType yes or no\n");
