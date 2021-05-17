@@ -104,23 +104,23 @@ if (agree.toUpperCase() === "Y") {
     var agree1 = readlineSync.question("Do you want to continue??\nType yes or no\n");
     if (agree1.toUpperCase() === "YES") {
       var friQuestions = [{
-        question: "How many seasons are there in FRIENDS?",
+        question: "11 How many seasons are there in FRIENDS?",
         answer: "10"
       },
       {
-        question: "How many marriages did ROSS have?",
+        question: "12 How many marriages did ROSS have?",
         answer: "3"
       },
       {
-        question: "How does Joey flirt with girls?",
+        question: "13 How does Joey flirt with girls?",
         answer: "How you Doin?"
       },
       {
-        question: "Where does Racheal work?",
+        question: "14 Where does Racheal work?",
         answer: "Ralph Lauren"
       },
       {
-        question: "What is the name of show in which Joey got famous?",
+        question: "15 What is the name of show in which Joey got famous?",
         answer: "Days of our lives"
       }];
       for (var i = 0; i < friQuestions.length; i++) {
